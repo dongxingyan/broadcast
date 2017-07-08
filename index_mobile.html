@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鹏云视频会议</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./js/video/video.css">
+</head>
+<body>
+<div class="wrapper mobile-wrapper">
+    <div class="content">
+        <div class="head mobile-head">
+            <img src="./imgs/logo.png" alt="" width="273px" class="logo">
+        </div>
+        <div class="input-url mobile-winput-url">
+            <input type="text" id="J_input-url" placeholder="请输入视频链接"><button id="J_url-button" class="url-button">播放</button>
+        </div>
+        <div class="player mobile-player">
+            <video id="videoplayer" class="video-js vjs-default-skin" controls preload="none" width="300" height="250" style="margin: 0 auto;"
+                   poster=""
+                   data-setup="{}">
+            </video>
+        </div>
+        <p class="tips mobile-tips">鹏云视讯提供技术支持</p>
+    </div>
+</div>
+<script type="text/javascript" src="./js/video/video.js"></script>
+<script type="text/javascript" src="./js/video/videojs-contrib-hls.js"></script>
+<script type="application/javascript" src="./js/index_mobile.js"></script>
+</body>
+</html>

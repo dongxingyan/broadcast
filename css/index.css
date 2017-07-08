@@ -1,0 +1,166 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.tips {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.head {
+    height: 116px;
+    line-height: 116px;
+    font-family: "宋体";
+}
+
+.head img, .head span {
+    vertical-align: middle;
+    /*float: left;*/
+}
+
+.head .title {
+    font-size: 42px;
+    font-family: "Microsoft YaHei";
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background: url("../imgs/bg.png");
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tips {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin: 35px auto 0;
+}
+
+.head {
+    height: 120px;
+    line-height: 1;
+    font-family: "宋体";
+    padding-top: 50px;
+    text-align: center;
+}
+
+.head img, .head span {
+    vertical-align: middle;
+    /*float: left;*/
+}
+
+.input-url {
+    margin: 0 auto;
+    width: 960px;
+    font-family: "PingFang", "微软雅黑", "Helvetica", "Arail", "黑体";
+}
+
+.input-url > input {
+    height: 35px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    width: 860px;
+    line-height: 35px;
+    background-color: rgb(208, 186, 186);
+    font-family: "PingFang", "微软雅黑", "Helvetica", "Arail", "黑体";
+}
+
+.input-url > input::-webkit-input-placeholder {
+    color: #555;
+}
+
+.input-url > input::-moz-placeholder {
+    color: #555;
+}
+
+.input-url > input:-moz-placeholder {
+    color: #555;
+}
+
+.url-button {
+    outline: none;
+    border: none;
+    width: 58px;
+    line-height: 35px;
+    cursor: pointer;
+    background-color: #5c5c5c;
+    font-size: 14px;
+    color: #ddd;
+    font-family: "PingFang", "微软雅黑", "Helvetica", "Arail", "黑体";
+}
+
+.url-button:hover {
+    background-color: #4c4c4c;
+}
+
+.erweima p {
+    margin-top: 15px;
+}
+
+.erweima img {
+    width: 155px;
+}
+
+.player {
+    margin-top: 32px;
+}
+
+/*手机样式*/
+.mobile-wrapper {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    background: url("../imgs/bg.png") no-repeat;
+}
+
+.mobile-winput-url {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.mobile-winput-url > input {
+    width: 70%;
+    padding: 0 5%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.mobile-winput-url > button {
+    width: 20%;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.mobile-player {
+    margin: 20px auto;
+}
+
+.mobile-head {
+    padding-top: 8vh;
+}
+.video-js .vjs-big-play-button {
+    display: none!important;
+}
+.mobile-tips {
+    font-size: 16px;
+}

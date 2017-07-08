@@ -1,0 +1,269 @@
+
+body {
+    background: #212121;
+    color: #ffffff;
+}
+.mobile-live-name {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.live-video-play-container {
+    width: 90%;
+    height: 186px;
+    margin-bottom: 15px;
+}
+video {
+    width: 750px;
+    height: 450px;
+}
+.no-start-container {
+    width: 90%;
+    height: 186px;
+}
+.live-content-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+}
+.mobile-live-chat-container {
+    height: 160px;
+    background: #f5f5f5;
+    width: 90%;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+.mobile-chat-container {
+    height: 160px;
+}
+.chat-item-title-container {
+
+}
+.chat-person-content {
+    font-size: 15px;
+    color: #2a2b30;
+    padding-bottom: 10px;
+    padding-right: 81px;
+}
+.chat-item-container {
+    margin-bottom: 2px;
+    background: #ffffff;
+}
+.chat-person-time {
+    color: #72737f;
+    margin-right: 42px;
+    font-size: 12px;
+}
+.mobile-input-chat-msg-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    z-index: 10000;
+    height: 45px;
+    width: 90%;
+}
+.mobile-chat-msg-input {
+    width: 59%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.mobile-submit-msg-btn {
+    width: 41%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #2c9fd1;
+    cursor: pointer;
+    color: #ffffff;
+}
+.meeting-not-start-container {
+    position: absolute;
+    background: #000000;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    width: 90%;
+    height: 186px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    z-index: 999;
+}
+.meeting-not-start-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.meeting-start-time {
+
+}
+.hide {
+
+}
+.submit-content-container {
+    height: 89px;
+    margin-bottom: 64px;
+}
+.mobile-submit-msg-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+}
+.mobile-live-watch-num {
+    font-size: 14px;
+    color: #202229;
+    background: #fff;
+    padding-left: 20px;
+    line-height: 31px;
+}
+#live-video {
+    height: 186px !important;
+    width: 100% !important;
+}
+.chat-person-name {
+    font-size: 14px;
+    color: #202229;
+    font-weight: 400;
+    margin-top: -4px;
+}
+.mobile-input-nickname-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.input-nickname-title {
+    color: #202229;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.submit-nickname-btn {
+    background: #2ba0cf;
+    width: 95px;
+    height: 32px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.nickname-msg-input {
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 32px;
+    padding-left: 13px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.mobile-watch-num-container {
+    background: #ffffff;
+    width: 90%;
+    color: #202229;
+    height: 33px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.meeting-not-start-time {
+    font-size: 14px !important;
+    margin-top: 10px;
+}

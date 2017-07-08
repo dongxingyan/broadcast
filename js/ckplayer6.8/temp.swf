@@ -1,0 +1,10 @@
+var ck: Object = null;
+var playerStop:String="temp.swf";
+function setAppObj(app: Object): void {
+	ck = app;
+	ck.addListener(playerStop, "ended", endHandler);
+}
+function endHandler():void{
+	console.log('aaaa');
+	alert('xxxs')
+}

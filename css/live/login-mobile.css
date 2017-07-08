@@ -1,0 +1,66 @@
+body {
+    /*background-image: url("../../imgs/live/mobile-logo.jpg");*/
+    background-size: cover;
+    background-position: center top;
+    background-color: #212121;
+}
+.login-mobile-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 3px;
+}
+.login-mobile-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 323px;
+    height: 289px;
+}
+.drpeng-login-mobile-logo {
+    background: url("../../imgs/live/mobile-logo.png") center top no-repeat;
+    width: 187px;
+    height: 63px;
+}
+.mobile-verify-code-input {
+    width: 73%;
+    height: 40px;
+    border: 1px solid #CCC;
+    font-size: 14px;
+    color: gray;
+    background: url("../../imgs/live/verification_code.png") 13px center no-repeat;
+    padding-left: 43px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.mobile-nickname-input {
+    width: 73%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: gray;
+    border: 1px solid #CCC;
+    font-size: 14px;
+    padding-left: 43px;
+    background: url("../../imgs/live/nickname.png") 13px center no-repeat;
+    border-radius: 3px;
+}
+.mobile-start-live-button {
+    width: 87%;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #2c9fd1;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
